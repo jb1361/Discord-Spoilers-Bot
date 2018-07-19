@@ -1,0 +1,11 @@
+{
+  "name": "Spoilers Bot",
+  "version": "0.0.1",
+  "description": "Spoilers Bot",
+  "main": "bot.js",
+  "author": "Justin Butler",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "winston": "^3.0.0"
+  }
+}
