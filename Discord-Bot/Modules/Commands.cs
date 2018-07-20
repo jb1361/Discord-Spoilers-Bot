@@ -27,16 +27,15 @@ namespace Discord_Bot.Modules
             timer.Elapsed += async (sender, e) => await DeleteMessagesAsync();
             timer.AutoReset = true;
             timer.Start();
-            await ReplyAsync("I am now deleting messages that are over an hour old.");
-            await DeleteMessagesAsync();
-            
-
+            Console.WriteLine("Bot Started");
+            await ReplyAsync("I am now deleting messages that are over an hour old.");          
         }
 
         [Command("stop")]
         public async Task StopAsync()
         {
-            timer.Stop();         
+            timer.Stop();
+            Console.WriteLine("Bot Stoped");
             await ReplyAsync("I am no longer deleting messages.");
         }
 
