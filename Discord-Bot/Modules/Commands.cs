@@ -28,6 +28,8 @@ namespace Discord_Bot.Modules
             timer.AutoReset = true;
             timer.Start();
             await ReplyAsync("I am now deleting messages that are over an hour old.");
+            await DeleteMessagesAsync();
+            
 
         }
 
