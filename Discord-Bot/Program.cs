@@ -38,10 +38,7 @@ namespace Discord_Bot
             await _client.StartAsync();      
 
             await Task.Delay(-1);
-
-           
-
-
+         
         }
 
      

@@ -45,6 +45,7 @@ namespace Discord_Bot.Modules
         [RequireBotPermission(ChannelPermission.ManageMessages)]
         public async Task DeleteMessagesAsync()
         {
+            Console.WriteLine("Scanning Messages");
             try
             {
                 var messages = await Context.Channel.GetMessagesAsync().Flatten();
