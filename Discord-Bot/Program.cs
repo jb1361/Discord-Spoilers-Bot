@@ -33,7 +33,7 @@ namespace Discord_Bot
          
             await RegisterCommandsAsync();
 
-            await _client.LoginAsync(TokenType.Bot, "NDY5NjI2ODIwNzA3MzUyNTc3.DjKe0w.cdRdC3aA4OGHeVK0NZIXGHIMxxU");         
+            await _client.LoginAsync(TokenType.Bot, "Insert-Bot-Client-ID");         
 
             await _client.StartAsync();      
 
